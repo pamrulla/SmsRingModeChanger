@@ -1,7 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:p2="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-</LinearLayout>
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="#ff00ffff"
+        p2:gridSpec="1|16|#0093eeff|K:#ee8700ff:16,l:72,l:16,r|S:#83ee00ff:16,0,l:16,56,l:16,0,r"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Configure Mobile Numbers to Listen From"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1"
+            android:editable="false"
+            android:focusable="false"
+            android:padding="30px"
+            android:gravity="center_horizontal" />
+        <EditText
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone1"
+            android:hint="Mobile Number 1"
+            android:phoneNumber="true" />
+        <EditText
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone2"
+            android:hint="Mobile Number 2"
+            android:phoneNumber="true" />
+        <EditText
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone3"
+            android:hint="Mobile Number 3"
+            android:phoneNumber="true" />
+        <EditText
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone4"
+            android:hint="Mobile Number 4"
+            android:phoneNumber="true" />
+        <EditText
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phone5"
+            android:hint="Mobile Number 5"
+            android:phoneNumber="true" />
+        <TextView
+            android:text="Saving failed, Mobile number should be 10 digits long."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/fail"
+            android:id="@+id/fail"
+            android:inputType="textMultiLine"
+            android:editable="false"
+            android:gravity="center" 
+            android:visibility="invisible"/>
+        <TextView
+            android:text="Saving successful."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/success"
+            android:id="@+id/success"
+            android:inputType="textMultiLine"
+            android:editable="false"
+            android:gravity="center" 
+            android:visibility="invisible"/>
+        <Button
+            android:text="Save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/savebutton" />
+        <TextView
+            android:text="Help"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2"
+            android:gravity="center" />
+        <TextView
+            android:text="Save at least one mobile number. Sent SMS from any of the configured mobile number to change Ringermode of this mobile to Ringing with full volume."
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:inputType="textMultiLine"
+            android:editable="false"
+            android:layout_margin="10px" />
+        <TextView
+            android:text="Developed By"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_margin="20px" />
+        <Button
+            android:text="www.smartgnan.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linkButton" />
+    </LinearLayout>
+</ScrollView>

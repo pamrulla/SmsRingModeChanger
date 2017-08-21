@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="SmsRingModeChanger.SmsRingModeChanger" android:versionCode="1" android:versionName="1.0">
-  <uses-sdk android:minSdkVersion="16" />
-  <application android:label="SmsRingModeChanger"></application>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.smartgnan.SmsRingModeChanger.SmsRingModeChanger" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="16" />
+	<uses-permission android:name="android.permission.READ_SMS" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<application android:label="SmsRingModeChanger" android:icon="@drawable/ic_launcher"></application>
 </manifest>

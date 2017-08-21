@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("SmsRingModeChanger.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("com.smartgnan.SmsRingModeChanger.Resource", IsApplication=true)]
 
-namespace SmsRingModeChanger
+namespace com.smartgnan.SmsRingModeChanger
 {
 	
 	
@@ -41,11 +41,36 @@ namespace SmsRingModeChanger
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050002
+			public const int fail = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int success = 2131034115;
+			
+			// aapt resource value: 0x7f050000
+			public const int theme_custom_background = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int theme_material_light_background = 2131034113;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ic_launcher = 2130837504;
 			
 			static Drawable()
 			{
@@ -53,6 +78,61 @@ namespace SmsRingModeChanger
 			}
 			
 			private Drawable()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f070007
+			public const int fail = 2131165191;
+			
+			// aapt resource value: 0x7f070000
+			public const int linearLayout1 = 2131165184;
+			
+			// aapt resource value: 0x7f07000d
+			public const int linkButton = 2131165197;
+			
+			// aapt resource value: 0x7f070002
+			public const int phone1 = 2131165186;
+			
+			// aapt resource value: 0x7f070003
+			public const int phone2 = 2131165187;
+			
+			// aapt resource value: 0x7f070004
+			public const int phone3 = 2131165188;
+			
+			// aapt resource value: 0x7f070005
+			public const int phone4 = 2131165189;
+			
+			// aapt resource value: 0x7f070006
+			public const int phone5 = 2131165190;
+			
+			// aapt resource value: 0x7f070009
+			public const int savebutton = 2131165193;
+			
+			// aapt resource value: 0x7f070008
+			public const int success = 2131165192;
+			
+			// aapt resource value: 0x7f070001
+			public const int textView1 = 2131165185;
+			
+			// aapt resource value: 0x7f07000a
+			public const int textView2 = 2131165194;
+			
+			// aapt resource value: 0x7f07000b
+			public const int textView3 = 2131165195;
+			
+			// aapt resource value: 0x7f07000c
+			public const int textView4 = 2131165196;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
@@ -76,11 +156,8 @@ namespace SmsRingModeChanger
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int ApplicationName = 2130968577;
-			
 			// aapt resource value: 0x7f040000
-			public const int Hello = 2130968576;
+			public const int ApplicationName = 2130968576;
 			
 			static String()
 			{
@@ -88,6 +165,22 @@ namespace SmsRingModeChanger
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int Theme_Custom = 2131099648;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
